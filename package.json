@@ -1,0 +1,36 @@
+{
+  "name": "secure-webrtc",
+  "version": "0.0.1",
+  "description": "A WebRTC JavaScript Library supporting decentralized OAuth 2 based authentication and OpenID Connect based authorization.",
+  "keywords": [
+    "oauth2",
+    "oidc",
+    "openid-connect",
+    "webrtc"
+  ],
+  "homepage": "https://github.com/JonasPrimbs/secure-webrtc",
+  "bugs": {
+    "email": "mail@jonasprimbs.de",
+    "url": "https://github.com/JonasPrimbs/secure-webrtc/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Primbs",
+    "email": "mail@jonasprimbs.de",
+    "url": "https://www.jonasprimbs.de"
+  },
+  "main": "./src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonasPrimbs/secure-webrtc.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "karma": "^6.3.4",
+    "karma-typescript": "^5.5.1",
+    "typescript": "^4.3.5"
+  }
+}
